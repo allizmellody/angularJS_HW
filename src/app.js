@@ -22,6 +22,6 @@ angular
       scope: {
         click: '&onClick'
       },
-      templateUrl: 'my-button.html'
+      templateUrl: 'my-button-click.html'
     }
   });

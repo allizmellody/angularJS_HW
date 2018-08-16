@@ -18,6 +18,7 @@ angular
   .directive('myButton', function() {
     return {
       restrict: 'E',
+      transclude: true,
       templateUrl: 'my-button.html'
     }
   });

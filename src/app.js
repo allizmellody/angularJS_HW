@@ -19,6 +19,9 @@ angular
     return {
       restrict: 'E',
       transclude: true,
+      scope: {
+        click: '&onClick'
+      },
       templateUrl: 'my-button.html'
     }
   });

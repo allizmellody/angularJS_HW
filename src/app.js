@@ -19,6 +19,7 @@ angular
     return {
       restrict: 'E',
       transclude: true,
+      scope: true,
       bindToController: {
         click: '&onClick'
       },

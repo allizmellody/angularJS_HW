@@ -19,9 +19,11 @@ angular
     return {
       restrict: 'E',
       transclude: true,
-      scope: {
+      bindToController: {
         click: '&onClick'
       },
-      templateUrl: 'my-button-click.html'
+      controller: function () {},
+      controllerAs: 'button',
+      templateUrl: 'my-button.html'
     }
   });
